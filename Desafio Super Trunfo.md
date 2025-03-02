@@ -1,5 +1,9 @@
 #include <stdio.h>
-printf("carta 1:\n");
+
+    int main(){
+
+
+        printf("carta 1:\n");
 
         char estado;
         char codigo[50];
@@ -8,6 +12,9 @@ printf("carta 1:\n");
         float area;
         float pib;
         int numero_de_pontos_turisticos;
+        float densidade_populacional;
+        float PIB_per_capita;
+
 
 
         printf("Digite o nome do estado:(ex: A a H)\n");
@@ -31,8 +38,14 @@ printf("carta 1:\n");
         printf("digite o numero de pontos turisticos:\n");
         scanf("%d", &numero_de_pontos_turisticos);
 
-            
-    
+        printf("digite a densidade populacional:\n");
+        scanf("%f", &densidade_populacional);
+
+        printf("digite o pib per capita:\n");
+        scanf("%f", &PIB_per_capita);
+        
+               printf("a densinade populacional da carta 1 é é: %.2f \n", população / area);
+               printf("o pib percapita da carta 1 é: %f \n", pib / população);
 
         printf("carta 2:\n");
 
@@ -58,7 +71,14 @@ printf("carta 1:\n");
         printf("digite o numero de pontos turisticos:\n");
         scanf("%d", &numero_de_pontos_turisticos);
 
+        printf("digite a densidade populacional:\n");
+        scanf("%f", &densidade_populacional);
+
+        printf("digite o pib per capita:\n");
+        scanf("%f", &PIB_per_capita);
+
+        printf("a densinade populacional da carta 2 é é: %f \n", população / area);
+        printf("o pib percapita da carta 2 é: %f \n", pib / população);
+        
         return 0;
     }
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Car
