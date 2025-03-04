@@ -14,6 +14,7 @@
         int numero_de_pontos_turisticos;
         float densidade_populacional;
         float PIB_per_capita;
+        float super_poder;
 
 
 
@@ -46,6 +47,9 @@
         
                printf("a densinade populacional da carta 1 é é: %.2f \n", população / area);
                printf("o pib percapita da carta 1 é: %f \n", pib / população);
+               printf("o super poder da carta 1 é: %f \n", (densidade_populacional + pib + população + area + PIB_per_capita) / 2);
+
+
 
         printf("carta 2:\n");
 
@@ -80,5 +84,8 @@
         printf("a densinade populacional da carta 2 é é: %f \n", população / area);
         printf("o pib percapita da carta 2 é: %f \n", pib / população);
         
+
+        printf("o super poder da carta 2 é: %f \n", (densidade_populacional + pib + população + area + PIB_per_capita) / 2);
+
         return 0;
     }
