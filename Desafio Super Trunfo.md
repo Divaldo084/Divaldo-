@@ -49,6 +49,9 @@
                printf("o pib percapita da carta 1 é: %f \n", pib / população);
                printf("o super poder da carta 1 é: %f \n", (densidade_populacional + pib + população + area + PIB_per_capita) / 2);
 
+               if (super_poder > super_poder){
+            printf("carta 1 venceu\n");
+
 
 
         printf("carta 2:\n");
@@ -83,9 +86,15 @@
 
         printf("a densinade populacional da carta 2 é é: %f \n", população / area);
         printf("o pib percapita da carta 2 é: %f \n", pib / população);
-        
-
+    
         printf("o super poder da carta 2 é: %f \n", (densidade_populacional + pib + população + area + PIB_per_capita) / 2);
+
+
+        if (super_poder > super_poder){
+            printf("carta 1 venceu\n");
+        } else {
+            printf("carta 2 venceu\n");
+        }
 
         return 0;
     }
